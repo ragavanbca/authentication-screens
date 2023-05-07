@@ -1,0 +1,53 @@
+:root {
+    --bs-lightGray: rgb(121, 121, 121);
+    --bs-primaryColor: rgb(81, 56, 238);
+    --bs-white: rgb(255, 255, 255);
+}
+
+@media only screen and (width < 987px) {
+    .loginForm {
+        height: 53rem !important;
+    }
+}
+
+body {
+    background-color: rgb(220, 223, 255);
+}
+
+a {
+    text-decoration: unset !important;
+}
+
+.lightGray {
+    color: var(--bs-lightGray);
+}
+
+.loginBtnColor {
+    color: var(--bs-white);
+    background-color: var(--bs-primaryColor);
+}
+
+.loginBtnColor:hover {
+    color: var(--bs-white);
+}
+
+.loginForm {
+    height: 50rem;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 2.5%;
+    padding-bottom: 48%;
+}
+
+.googleSignupBtn {
+    border-color: #80808085 !important;
+    font-weight: bold;
+    padding: 3%;
+    border-radius: 35px;
+}
+
+.inputsStyle {
+    padding: 3%;
+    border-radius: 35px;
+    padding-left: 6%;
+}
